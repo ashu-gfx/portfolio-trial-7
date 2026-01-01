@@ -1,53 +1,85 @@
 const portfolioItems = [
   {
     id: 'p1',
-    title: 'HEED',
-    category: 'UI UX Case Study',
-    imageUrl: 'images/portfolio images/p1.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/yq7vdhg1pzj8lqgbp4zr2/p1.mp4?rlkey=k9vv74s9jjm9gao7ntlkqawph&st=d3i8gy6q&raw=1', // Example video
-    tags: ['Figma', 'Photoshop', 'Illustrator']
+    title: 'MAGAZINE DESIGN',
+    category: 'Prints design Case Study',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292180/p1_vomkzy.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291734/p1_fuze5a.mp4', // Example video
+    tags: ['Figma', 'Photoshop', 'Illustrator', 'Adobe Indesign'],
+    link: 'https://www.imagesmaller.com/' // Added link
   },
   ,
   {
     id: 'p2',
-    title: 'Fly way',
-    category: 'Travel Agency Website Design',
-    imageUrl: 'images/portfolio images/p2.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/ieb7rvuv77rsmots5azwg/p2.mp4?rlkey=3477dgxypywyba9zhuxoe4ass&st=q2409ibj&raw=1',
-    tags: ['Figma']
+    title: '3D Product Animation Commercial',
+    category: 'Blender 3D',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292187/p2_adncpq.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291704/p2_wrli6k.mp4',
+    tags: ['Blender', 'Illustrator']
   },
   {
     id: 'p3',
-    title: 'HEED',
+    title: '3D CAR Animated Landing Page',
     category: 'UI UX Case Study',
-    imageUrl: 'images/portfolio images/p3.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/piwrv76e2mr5kvweqjwht/p3.mp4?rlkey=ea2koggh9h8co0i0bs6dpenev&st=hhjubd8l&raw=1',
-    tags: ['Figma', 'Photoshop', 'Illustrator']
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292179/p3_z7fld1.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291705/p3_x9trul.mp4',
+    tags: ['Figma', 'Photoshop', 'Illustrator', 'Spline']
   },
   {
     id: 'p4',
-    title: 'Fly way',
-    category: 'Travel Agency Website Design',
-    imageUrl: 'images/portfolio images/p4.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/9kam2njsr7967cl4wn066/p4.mp4?rlkey=9zgm9va75qfiv3oo33h8pxsjv&st=fg9drl75&raw=1',
+    title: '3D CHARACTER HEAD MODELING',
+    category: 'Blender 3D',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292181/p4_y51ecy.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291743/p4_fwubwp.mp4',
     tags: ['Figma']
   },
   {
     id: 'p5',
-    title: 'HEED',
-    category: 'UI UX Case Study',
-    imageUrl: 'images/portfolio images/p5.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/32zgt0wwc51b6b4qacn16/p5.mp4?rlkey=2c12xt35ojudpne019akiktf9&st=t3d7f0xd&raw=1',
-    tags: ['Figma', 'Photoshop', 'Illustrator']
+    title: '3d GLASS BOTTLE MODEL DESIGN | ',
+    category: 'Blender 3D',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292178/p5_ied3nw.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291782/p5_lkacjw.mp4',
+    tags: ['Figma', 'Adobe dimension', 'Illustrator']
   },
   {
     id: 'p6',
     title: 'Fly way',
     category: 'Travel Agency Website Design',
-    imageUrl: 'images/portfolio images/p6.png',
-    videoUrl: 'https://www.dropbox.com/scl/fi/etjzbv4ny9vp6662hg5zr/p6.mp4?rlkey=l11ywq8nlwvelzourr4ml0hl0&st=4q0a00ii&raw=1',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292184/p6_ktc82x.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291675/food_app_UI_byixyk.mp4',
     tags: ['Figma']
   },
+  {
+    id: 'p7',
+    title: 'Fly way',
+    category: 'Travel Agency Website Design',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767295887/Group_28_mwhp4w.png',
+    videoUrl: '',
+    tags: ['Figma']
+  },
+  {
+    id: 'p8',
+    title: 'Fly way',
+    category: 'Travel Agency Website Design',
+    imageUrl:
+      'https://res.cloudinary.com/dumon96kf/image/upload/v1767292184/p6_ktc82x.png',
+    videoUrl:
+      'https://res.cloudinary.com/dumon96kf/video/upload/v1767291675/food_app_UI_byixyk.mp4',
+    tags: ['Figma']
+  }
   // {
   //   id: 'p7',
   //   title: 'HEED',
@@ -67,11 +99,15 @@ const portfolioItems = [
   // Add videoUrl to other items...
 ]
 
-const grid = document.getElementById('portfolioGrid');
+const grid = document.getElementById('portfolioGrid')
 
 portfolioItems.forEach(item => {
-  const div = document.createElement('div');
-  div.className = 'portfolio-item';
+  // Check if item exists (to handle that extra comma in your array)
+  if (!item) return
+
+  const div = document.createElement('div')
+  div.className = 'portfolio-item'
+  div.style.cursor = 'pointer' // Make it look clickable
 
   div.innerHTML = `
       <div class="portfolio-image-box">
@@ -80,14 +116,9 @@ portfolioItems.forEach(item => {
           <svg class="speaker-off" fill="currentColor" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.41.32-.85.59-1.32.82v2.05c1.02-.27 1.97-.74 2.8-1.39L19.73 21 21 19.73 4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
         </button>
 
-        <video class="portfolio-video" 
-               src="${item.videoUrl}" 
-               loop 
-               playsinline 
-               preload="auto" 
-               muted>
-        </video>
-        
+        <video class="portfolio-video" src="${
+          item.videoUrl
+        }" loop playsinline preload="auto" muted></video>
         <img src="${item.imageUrl}" alt="${item.title}" class="portfolio-img" />
 
         <div class="tag-container">
@@ -106,32 +137,68 @@ portfolioItems.forEach(item => {
           </svg>
         </div>
       </div>
-    `;
+    `
 
-  const video = div.querySelector('.portfolio-video');
-  const soundBtn = div.querySelector('.sound-toggle');
-  const onIcon = soundBtn.querySelector('.speaker-on');
-  const offIcon = soundBtn.querySelector('.speaker-off');
+  // --- NEW: REDIRECT LOGIC ---
+  div.addEventListener('click', () => {
+    if (item.link) {
+      // window.location.href = item.link; // Opens in same tab
+      window.open(item.link, '_blank') // Use this if you want a new tab
+    }
+  })
 
-  // Hover logic
-  div.addEventListener('mouseenter', () => {
-    video.play().catch(() => { /* Handle auto-play restrictions */ });
-  });
+  // Keep your existing hover and sound logic
+  // --- VIDEO & HOVER LOGIC ---
+  const video = div.querySelector('.portfolio-video')
+  const soundBtn = div.querySelector('.sound-toggle')
+  const portfolioImg = div.querySelector('.portfolio-img')
 
-  div.addEventListener('mouseleave', () => {
-    video.pause();
-    video.currentTime = 0;
-  });
+  // Check if videoUrl exists and is not blank
+  const hasVideo = item.videoUrl && item.videoUrl.trim() !== ''
 
-  // Sound toggle logic
-  soundBtn.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevents triggers on parent elements
-    video.muted = !video.muted;
-    
-    // Toggle icon visibility
-    onIcon.style.display = video.muted ? 'none' : 'block';
-    offIcon.style.display = video.muted ? 'block' : 'none';
-  });
+  if (hasVideo) {
+    portfolioImg.style.transition = 'none !important'
+    const onIcon = soundBtn.querySelector('.speaker-on')
+    const offIcon = soundBtn.querySelector('.speaker-off')
 
-  grid.appendChild(div);
-});
+    div.addEventListener('mouseenter', () => {
+      video.play().catch(() => {})
+      // Optional: Hide image when video plays to ensure no "ghosting"
+      portfolioImg.style.opacity = '0'
+    })
+
+    div.addEventListener('mouseleave', () => {
+      video.pause()
+      video.currentTime = 0
+      portfolioImg.style.opacity = '1'
+    })
+
+    soundBtn.addEventListener('click', e => {
+      e.stopPropagation()
+      video.muted = !video.muted
+      onIcon.style.display = video.muted ? 'none' : 'block'
+      offIcon.style.display = video.muted ? 'block' : 'none'
+    })
+  } else {
+    // 1. Add 'no-video' class to the main container div
+    // div.classList.add('no-video')
+    // portfolioImg.style.transform = 'scale(1.5)'
+
+    div.addEventListener('mouseenter', () => {
+      portfolioImg.style.transition = 'transform 0.3s ease-in-out'
+      portfolioImg.style.transform = 'scale(1.1)'
+    })
+
+    div.addEventListener('mouseleave', () => {
+      portfolioImg.style.transform = 'scale(1)'
+    })
+    // 2. Remove the pointer cursor (if you set it via JS earlier)
+    div.style.cursor = 'default'
+
+    // 3. Clean up the DOM
+    if (video) video.remove()
+    if (soundBtn) soundBtn.remove()
+  }
+
+  grid.appendChild(div)
+})

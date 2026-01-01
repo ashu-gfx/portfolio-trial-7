@@ -1,7 +1,8 @@
-// Function to update the active state of sidebar links based on scroll position
 const observerOptions = {
   root: null,
-  rootMargin: '-100px 0px -70% 0px', // Matches the 100px Offset Y
+  // Adjust these values: Top -150px, Bottom -50%
+  // This ensures only one section is "active" at a time
+  rootMargin: '-20% 0px -70% 0px',
   threshold: 0
 }
 
@@ -12,17 +13,17 @@ const observer = new IntersectionObserver(entries => {
       `.sidebar-service-title[href="#${id}"]`
     )
 
-    if (entry.isIntersecting) {
-      // Remove active class from all and add to the current one
+    if (entry.isIntersecting && sidebarLink) {
+      // Remove active class from all
       document.querySelectorAll('.sidebar-service-title').forEach(link => {
         link.classList.remove('active')
       })
+      // Add to the one currently intersecting the "window"
       sidebarLink.classList.add('active')
     }
   })
 }, observerOptions)
 
-// Observe each service card
 document.querySelectorAll('.service-card').forEach(card => {
   observer.observe(card)
 })
@@ -36,12 +37,14 @@ viewItems.forEach(item => {
   const button = item.querySelector('.view-button')
 
   button.addEventListener('click', () => {
-    const isOpen = item.classList.contains('open')
+    const wasOpen = item.classList.contains('open')
 
-    // Close all
+    // 1. Close all items (removes 'open' from everything)
     viewItems.forEach(i => i.classList.remove('open'))
 
-    // Open clicked item if it was closed
-    if (!isOpen) item.classList.add('open')
+    // 2. If the clicked item wasn't open before, open it now
+    if (!wasOpen) {
+      item.classList.add('open')
+    }
   })
 })

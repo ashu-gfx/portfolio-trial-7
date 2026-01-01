@@ -820,3 +820,13 @@ body {
 .view-item.open .minus-icon {
   display: block;
 }
+/* Default state (Closed) */
+.view-item .content {
+  display: none;
+  /* or use height: 0; overflow: hidden; for animations */
+}
+
+/* Active state (Open) */
+.view-item .open .content {
+  display: block;
+}

@@ -171,21 +171,19 @@
   }
 }
 
-
 @media (min-width: 1100px) {
-   .portfolio-section {
+  .portfolio-section {
     padding-left: 3.1rem;
     padding-right: 3.1rem;
   }
 }
 
 @media (min-width: 1190px) {
-   .portfolio-section {
+  .portfolio-section {
     padding-left: 3.35rem;
     padding-right: 3.35rem;
   }
 }
-
 
 /* @media (max-width: 800px) {
   .portfolio-section {
@@ -279,19 +277,32 @@
   height: 100%;
   object-fit: cover;
   z-index: 2;
-  transition: none !important;
+  /* transition: none !important; */
   display: block;
 }
+
+
+/* .portfolio-item.no-video:hover {
+  transform: none !important;
+}
+
+
+.portfolio-item.no-video .portfolio-img {
+  opacity: 1 !important;
+} */
+
 .portfolio-item:hover .portfolio-video {
   opacity: 1; /* Shows video instantly */
 }
 
 /* Hover Effect: Image disappears, Video is revealed */
-.portfolio-item:hover .portfolio-img {
+/* .portfolio-item:hover .portfolio-img {
   opacity: 0;
   visibility: hidden;
-  display: none !important; /* Immediate removal */
-}
+  display: none !important;
+} */
+
+
 
 .portfolio-image-box img {
   width: 100%;

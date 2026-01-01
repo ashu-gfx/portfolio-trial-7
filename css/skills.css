@@ -75,7 +75,6 @@ body {
   }
 }
 
-
 /* GRADIENT BOX */
 .skills-wrapper {
   position: relative;
@@ -99,6 +98,7 @@ body {
 
 /* GRID OVERLAY */
 .grid-overlay {
+  z-index: -1;
   position: absolute;
   inset: 0;
   opacity: 0.4;
@@ -427,5 +427,5 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-   inset: 0;
+  inset: 0;
 }

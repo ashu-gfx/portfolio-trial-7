@@ -31,3 +31,17 @@ mm.add("(min-width: 769px)", () => {
 mm.add("(max-width: 768px)", () => {
   gsap.set('.img-center', { width: '100%' });
 });
+
+// window.addEventListener('load', () => {
+//   const video = document.querySelector('.img-center video');
+  
+//   // Attempt to play
+//   const playPromise = video.play();
+
+//   if (playPromise !== undefined) {
+//     playPromise.catch(error => {
+//       // Auto-play was prevented
+//       console.log("Autoplay prevented. Showing play button or handling logic.");
+//     });
+//   }
+// });

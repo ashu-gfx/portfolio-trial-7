@@ -1,6 +1,6 @@
 .gallery-section {
   padding-left: clamp(2rem, 1.2rem + 2.7vw, 4.3rem);
-  padding-right: clamp(2rem, 1.4rem + 2.1vw, 4rem);
+  padding-right: clamp(2rem, 1.2rem + 2.7vw, 4.3rem);
   /* background-color: dodgerblue; */
 }
 
@@ -40,6 +40,7 @@
 
 .img-center {
   width: 30vw;
+  overflow: hidden;
 }
 
 .img-left {
@@ -74,7 +75,7 @@
     justify-content: center;
     margin: 0;
     padding-left: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .gallery-section div {
